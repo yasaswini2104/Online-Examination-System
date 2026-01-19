@@ -132,19 +132,3 @@ public class AuthService {
         return false;
     }
 }
-```
-
----
-
-### **Files Changed:**
-- `src/com/exam/service/AuthService.java` (created)
-
-### **Suggested Git Commit Message:**
-```
-
-
-- Implemented user registration with validation
-- Implemented login functionality with credential verification
-- Added role-based access checks (isAdmin, isStudent)
-- Added user existence check to prevent duplicates
-- Integrated with FileUtil for persistent storage
