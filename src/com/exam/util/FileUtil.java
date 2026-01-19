@@ -11,7 +11,10 @@ import java.util.List;
  */
 public class FileUtil {
     
-    private static final String DATA_DIR = "data/";
+    // private static final String DATA_DIR = "data/";
+    private static final String DATA_DIR =
+        System.getProperty("user.dir") + File.separator + "data" + File.separator;
+
     
     /**
      * Read all lines from a file
