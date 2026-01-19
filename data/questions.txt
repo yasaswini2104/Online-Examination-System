@@ -1,0 +1,2 @@
+What is the capital of France?|Paris|London|Berlin|Madrid|A
+Which planet is known as the Red Planet?|Earth|Mars|Jupiter|Venus|B
