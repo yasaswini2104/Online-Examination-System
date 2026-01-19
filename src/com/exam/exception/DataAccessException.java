@@ -14,11 +14,3 @@ public class DataAccessException extends Exception {
         super(message, cause);
     }
 }
-
-### **Suggested Git Commit Message:**
-```
-Add custom exception classes for error handling
-
-- Created AuthenticationException for login failures
-- Created AuthorizationException for unauthorized access
-- Created DataAccessException for file I/O errors
